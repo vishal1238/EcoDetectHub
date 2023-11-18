@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDetectHub.org</title>
+    <link rel="website icon" type="png"
+    href="web.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+         <img src="logo.png" alt="Eenergylogo">
+            <ul>
+                <li><a href="https://msbsg.org/kb/solar-energy-awareness/">Solar Energy</a></li>
+                <li><a href="https://www.irena.org/Energy-Transition/Technology/Wind-energy#:~:text=Wind%20is%20used%20to%20produce,kinetic%20energy%20into%20rotational%20energy.">Wind Energy</a></li>
+                <li><a href="https://www.energy.gov/eere/water/hydropower-basics">Hydro Energy</a></li>
+                <li><a href="https://justenergy.com/blog/just-the-facts-renewable-energy-vs-nonrenewable-energy/">More Info.</a></li>
+            </ul>
+        </nav>
+        <h1>Clean Energy for a Sustainable Future</h1><br>
+        <p><strong> Trusted Partner in Renewable Solutions<br>
+        No Regitration required its totally free for you</strong></p>
+        <br>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </header>
+    <div class="container">
+      <label for="energySource">Select Energy Source:</label>
+      <select id="energySource" onchange="detectRenewableEnergy()">
+          <option value="solar">Solar</option>
+          <option value="wind">Wind</option>
+          <option value="hydro">Hydro</option>
+          <option value="geothermal">Geothermal</option>
+          <option value="biomass">Biomass</option>
+          <option value="coal">Coal</option>
+          <option value="oil">Oil</option>
+          <option value="natural gas">Natural Gas</option>
+          <option value="Ground Water">Ground Water</option>
+          <option value="Fossil fuels">Fossil fuels</option>
+          <option value="Uranium">Uranium</option>
+      </select>
+      <script src="script.js"></script>
+      <p id="result"><b>Detection result will appear here.</b></p>
+  </div>
+  <div>
+    <h2>Detect Renewable Energy</h2>
+      <section id="services">
+        <br>
+        <div class="services">
+            <img src="solar-panel.png" alt="Solar Panel Installation">
+            <h3>Solar Energy</h3>
+            <div id="p1"><p>Solar energy involves the utilization of sunlight to generate electricity through photovoltaic (PV) cells.These cells, commonly found in solar panels, convert sunlight directly into electrical energy through the photovoltaic effect. Solar power ? is abundant, environmentally friendly, and can be harnessed using various technologies such as solar photovoltaic systems, solar thermal systems, and concentrated solar power. Solar energy plays a crucial role in the transition to cleaner energy sources, offering a sustainable alternative to conventional fossil fuels.</p></div>
+        </div>
+       
+        <div class="service">
+            <img src="wind-turbine.png" alt="Wind Turbine Solutions">
+            <h3>Wind Energy</h3>
+            <div id="p2"><p>Wind energy is a form of solar energy that results from the uneven heating of the Earth's surface by the sun. As sunlight heats the Earth, different regions absorb solar energy at varying rates, leading to temperature differentials. These temperature variations cause air movement, creating wind. Wind energy is harnessed through wind turbines, which capture the kinetic energy of the wind and convert it into mechanical power. This mechanical power is then transformed into electricity through a generator. Wind power is a sustainable and renewable energy source with the potential to contribute significantly to global electricity generation.</p>
+            </div>
+       
+            
+         </div>
+      </section>
+   </div>
+   <h4><strong>Use Renewable Energy 
+    <br>
+    <br>
+    "What we are doing to the forests of the world is but a mirror reflection of what we are doing to ourselves and to one another."<br>- Mahatma Gandhi</strong></h4>
+   <div class="hello">
+    <img src="hydro.png" alt="Hydro Energy">
+    <p>
+        Embrace the power of change! Opt for renewable energy to shield our Earth. Let the sun and wind weave a sustainable future, where energy dances harmoniously with nature. Say goodbye to carbon footprints, and hello to a greener tomorrow. By choosing renewable sources, we pledge allegiance to a planet thriving in clean vitality. Join the movement, illuminate minds, and together, let's sculpt a brighter, eco-friendly legacy for generations yet to come.
+    </p>
+   </div>
+   <div>
+
+   </div>
+   <section id="about">
+    <div>
+        <h2>Our Vision</h2>
+        <p>At Renewable Energy Solutions, we are dedicated to providing eco-friendly and sustainable energy solutions. With a focus on innovation and environmental stewardship, we aim to transform the energy landscape for a greener tomorrow.<br>
+        Envisioning a world powered by clean, renewable energy, we strive to be a catalyst for change. Our vision is to contribute significantly to the global transition towards sustainable and eco-friendly energy alternatives.
+        </p>
+    </div>
+        <div>
+            <img src="about-image.png" alt="Renewable Energy">
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <h2>Contact Us</h2>
+            
+            <p>Ready to make the switch to renewable energy?<br> Reach out to our team for personalized consultations and expert advice.<br>
+            <strong> Email Us:-</strong><a href="mailto:example@email.com">Click here to send an email</a>
+            </p>
+        </div>
+        <form action="submit-form.php" method="post">
+            <p><strong>Feedback:-</strong></p>
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 EcoDetectHub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
